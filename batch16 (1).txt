@@ -1,0 +1,2393 @@
+ 							OM
+
+What is the Operating system?
+	operating sytem is nothing but collection of programs which will interact with end user for input and execute with help of hardware components.
+
+windows is a os  not open source
+Redhat is a os is a open source OS
+MAC is a os
+AIX is a OS   Not open source
+Solaris is a os
+Android is a OS ==> Mobile
+
+Window Operating system is developed in .net language
+Unix operating system is developed in c language.
+
+Unix is operating system, which is developed in C language.
+it's multi tasking and multi user operating system(OS).
+
+			Unix 
+
+sudo
+
+Windows is not a open source operating system.
+Unix is a open source operating system
+Redhat is a open source os.
+Suse is is a open source os.
+
+source code is open to customize if you know the language.
+operating system programs are allowed to modify that is the meaning open source.
+
+
+Unix operating system has been initiated by AT & T company(US) Based company. But in between they dropped to develop. 
+
+AT  & T employees did not leave these project. 
+developers of Unix:
+	1. ken thompson
+	2. dennis ritchie
+	3. Douglas
+they used C language to develop this unix OS. they used bell lab to test all OS programs.
+
+Linux is a operating system, it's developed based on Unix.  
+==> Linux is a flavour of Unix operating system.
+  Linus torvalds is author for Linux opeating system, he used Unix opearing system and developed seperate os which is Linux. He release this Linux OS into maket in 1991 year.
+
+	Unix = 1969
+	Linux = 1991
+
+
+Unix flavours:
+
+
+redhat is a company they took rights on Linux opearing system on 1994.
+who is main distributor for Linux opearing system? Redhat company
+
+AIX = IBM
+Linux =(Red hat Linux) = IBM
+HP-UX = HP
+Solaris = Sun ==> Oracle
+MAC = Apple
+
+
+Linux Flavours:
+1. Redhat Linux - Redhat & IBM
+2. Centos - redhat & IBM
+3. Fedora - redhat & IBM
+4. ubuntu  - ubuntu.org
+5. Debian  - debian
+6. opensuse - suse
+7. Linux Mint
+8. puppy Linux
+
+					unix Architecture
+
+		
+1. Application layer
+2. Shell
+3. kernel
+4. Hardware
+1. application layer : which is the layer interacts with end user that layer we consider as application. here end user pass or give input whith help of applications.
+
+
+2. shells:  it's a interpreter between application layer and kernel, It validates the programs before pass it to kernel.
+	shells contains pre-defined programs. 
+	OS is nothing collection prgrams.  csh and tcsh is for developers. sh,bash,dash,ksh all these shells for administration.
+		we can allocate shell to individual user, but by default shell is bash in redhat machines.
+	1. sh : will have the pre-defined programs
+	2. Bash : will have the pre-defined programs - RHEL Default shell.
+	3. dash : will have the pre-defined programs
+	4. csh : will have the pre-defined programs
+	5. tcsh : will have the pre-defined programs
+	6. nologin :  no programs are there in Nologin shell
+	additional
+	7. ksh
+3. kernel : is a heart of the OS or it's core program of OS.
+ is kernel is one of os program? yes
+
+what he is going to do? what is the role of kernel?
+   1. Memory(RAM) management
+   2. Tasks management(FIFO) first in first out
+   3. Resources/Drivers/modules management
+
+task1(program/command)
+	touch filename ==> shell ==> kernel will allocate RAM space to execute this touch command and put him into queue.
+	Total ram is 2 GB 
+	touch :command required 2 KB and stand in queue. processor and HDD.
+
+		 Platforms
+		1. Physical
+		2. Virtual  VMWARe
+		3. Cloud
+
+
+1. Physical
+	desktop environment  =  few developing and few supporting them.
+	server environment  ==> we are mainly responsible for server environment
+
+facebook application: it's developed by facebook company owners. 
+icici net banking application
+sbi
+amazon.com
+
+server is nothing high end configuration. good RAM, CPU,HDD,SMPS(Battery),networking, remote console.
+
+Desktop: 4 GB RAM,1 CPU, 1 HDD, 1 ethernet card   . 1 lakh
+server : High end configuration machine. the server can run min 1 year without restart. but desktop or simple system can't run. min 5 lakhs
+	  32 GB RAM Min
+	  2 CPU Min
+	  2 HDD min
+	 2 networking cards Min
+	 console board. using this console board we can access server from remotely. we can poweroff ,we can power on we can administrate server through remotely.
+
+developers how they will use desk and server:
+	desktop : write code and bug/error fixng
+	server : push code to server which they developed in desktop.   many customers will depends on server. eg: sbi netbanking, amazon.com, flipkart.com.
+	system administrator : we will use desktop to access server for administration or support.
+	  suppose any server down, new user joined for him providing access, extending drive space, software management.
+
+where we will maintain servers?
+	DC
+	data centre
+it's a safe location to maintain servers, network components,storage components, backup components.
+intrastructure:
+	1. servers  : this one is your component.
+	2. network components(firewalls, routers, switches,load balancer)
+	3. Storage box (n number of disks connected to storage box)
+	4. bakcup components
+
+ full security
+ centrailzed AC(<10 temp)
+3 Tier DATA Centre
+      smps : direct power, Generator, Battery
+      ISP : internet service providers
+	reliaence, airtel, vi
+
+4 tier DC ( CTRLS)
+  man branch in mumbai
+  DR : hyderabad
+
+
+  if  we installed Linux operating system on physical box that environment we will treat as physical platform.
+	server in USA
+	DC engineer : USA
+	Linux administrator : INDIA
+   ==> mount server on RACk : DC engineer will do this job (1 time job)
+   ==> connecting cables for server : DC engineer will do this job(1 time job)
+   ==> configuring console board : DC engineer will d this job( 1 time job). DC engineer will assign IP and set username/password for console.
+   ==>  Installing opearing system : Linux administrator, windows administrator, ...... (1 time job). we can access the physical server using console from remote. 
+			in browser we will enter http://IP addr of console
+			 username and password
+		HP  : ILO
+		DELL = ID RAC
+   ==> support for that machine :Linux administrator . it's not 1 time job, it's a continuesion job for linux administrator
+	creating partitions
+	creating users
+	allowing them to use partition(permissions)
+	Software management(install,un-install,upgrade)
+	network related
+	nfs
+	http
+	server is down
+	server rebooted
+	high memory utilization, High cpu utilization
+
+2. Virtual
+
+
+we can abstract(devide virtualy) physical resources to n number. 
+	resources are CPU, Memory, HDD,Networking,.......
+ 
+earliear we were able to use one physical machine for one OS 
+but in virtualization we can create n number virtual machines on top of one physical machine.
+
+ADV : no chance resource will get waste.
+  Physical machine : 64 GB RAM
+	  i can create 20 virtual machines each machine with 3 to 2 GB.
+
+I used to buy 50 servers to run 10 Applications
+now i can buy 4 servers to run 50 vm with 10 application.
+below companies are providing virtualization technologies
+
+1 VMWARE :   esxi, Vspheare and vencter
+2 Microsoft : Hyper-v
+
+
+
+Phyisical :  server ==> RHEL OS
+vm : physical ==> vm ==> RHEL OS
+    physical ==> Bare metal OS(esxi) ==> access this physical host from Vcenter ==> create Virtual machine  ==> install RHEL OS
+
+	
+
+
+esxi = Elastic sky X integrated
+vm = virtual machine
+ Physical server ==> Linux OS ==> application : 1 sever with 1 application = 20 lakshs
+physical sever1 ==> Virtualization OS (esxi) ==> Vcentre or Vspheare ==> VM1 ==> Linux OS ==> application1  
+physical sever1 ==> Virtualization OS (esxi) ==> Vcentre or Vspheare ==> VM2 ==> Linux OS ==> application2
+physical sever1 ==> Virtualization OS (esxi) ==> Vcentre or Vspheare ==> VM3 ==> Linux OS ==> db1 
+physical sever1 ==> Virtualization OS (esxi) ==> Vcentre or Vspheare ==> VM4 ==> Linux OS ==> application3 
+physical sever1 ==> Virtualization OS (esxi) ==> Vcentre or Vspheare ==> VM5 ==> Linux OS ==> application4 
+physical sever1 ==> Virtualization OS (esxi) ==> Vcentre or Vspheare ==> VM6 ==> Linux OS ==> db2 
+
+
+eg: i have one product we invested 10 rupees to manufactor that product . How i can earn money from this item/product?
+	I have to sale this product for 15 rupees. then only i can get some profit.
+        other industry or company able sale same kind of product for 9 rupees. 
+
+100000 in
+500000 US
+RHEL : redhat enterprise linux
+
+
+Esxi : is a Operating system or it's a bare metal os.  it is developed by vmware company.
+Vcentre : It's a enterprise tool to administrate your Phyisical hosts. using vcentre we can create virtual machines(VM), delete vm, increase CPU, increase memory, attaching disk to vm.
+vspheare : agent tool to access vcentre.
+
+vcenter server can be called a point for centralized configuring, provisioning, and managing the virtual infrastrucre.
+
+3 . Cloud 
+
+ 
+
+the DC is not yours. 
+Windows: the default administrator is admin/administrator
+Unix servers : the default administator is root
+
+Administration means : Linux os administration
+	os installation or server provisioning
+	user administration
+	software management
+	network setup
+	...
+
+normal can't perform administrative activities.
+
+ifconfig / ip a  - find the IP Address of linux server 
+
+pwd - C:\Users\deven\OneDrive\Desktop\ganesh sop (Windows)
+C:\Users\deven\OneDrive\Desktop\Deva personal and professional\SLK
+
+print working directory path
+cd /
+change directory from current place to /
+cd /boot
+i want to go inside /boot directory
+whoami  : will let you know which user is logged in
+ls : list out the current directory data(file and directories)
+clear : is to clear the screen (ctrl+l)
+files : black
+directory : Blue
+
+/
+is a directory
+
+/boot  there are 2 directories 1 is / second one is boot
+/root  1. / 2. root
+G
+OS is nothing but collection programs which will co-ordinate with end user and hardware. OS is a mediator.
+when we power on the vm or system os programs will load.
+	/
+1.	/boot : contains OS bootable files, which will help to load your operating system. 
+2.	/root: it's a home directory of administrator(root). no normal user can enter into /root directory. only root can use /root directory.
+3.	/home:  it contains normal users home directories. eg: there is devendra user here home direcotory of devendra  is /home/devendra  or /home/raja 
+4.	/etc:   It contains system or global configuration files. from here only we will control the system and applications.
+		network ip assigning, Hostname change,www service configuration, deny users, allow users
+5. 	/usr: Unix system resources. It contains user binary programs, like commands and other programs.  commands : pwd,ls,cd,whoam,cat .....
+		the User binaries are devided into 2 catogories
+		1. /usr/bin:  here  we can find common commands which will work for root user and normal users eg: ls, cd , whoam, cat, rm
+		2. /usr/sbin: here we can find super user(root) commands nothing but administrative commands eg: useradd, userdel , software installation, partition creation.
+
+6.	/bin : it contains the common commands or user binary programs. the main bin folder user binaries will help during server boot up
+7.	/sbin : it contains super user commands or super user binary programs.  /sbin will help machine to boot up.
+
+syntax: Which command -Source of the command 
+ 
+8. 	/proc : It's a processor directory. processor will use /proc directory to store current running jobs information.
+	processor is worker. we will execute your tasks.
+		/proc will get empty if we poweroff machine?
+9.	/lib  : it contains system library programs. these programs will help to load your os and run your pograms. even ls command will not work if there is no library.
+10.	/var : variable file/data:  contains system activities data will get updated in /var/. within system what is happening for every sec that data will update in /var.  
+	   logs will contain inside /var .
+11.	/dev  :   it contains logical names of devices( hard disk, cd/dvd,floppy)
+12.	/mnt :   it empty directory. we can use it for use device mounting.
+13.	/tmp : every user and every program can use tmp directory. to store running programs data temporarly.
+
+
+			Basic commands
+
+File management:
+How to create file
+how to modify the file content
+
+
+		1. Cat
+		2. Vi
+		3. Touch
+
+
+1. Cat
+usng cat command we can create file and add content.
+pwd
+/root
+creating file in /root directory.
+cat > <filename>
+cat > f1 press ctrl + d /ctrl + c save and come out from file
+the above command creates f1 in present path.
+
+using below command we are creating f1 in / path.
+cat > /f1
+
+content...............
+.............................
+ctrl+d
+is for save and come out
+
+how to view the file content?
+	cat f1
+
+how to append some more content to existing file?
+	  cat >> b12file
+  	new content added
+	ctrl + d
+
+print file content with line numbers?
+	cat -n b12file
+
+
+the draw back of cat is we can't modify file content.
+
+
+     2.  vi
+	virtual interface
+
+using vi we can create file, we can modify file content, we can replace content,.......
+
+how to create file using vi?
+    vi b12file
+  	there are 3 modes in VI
+	1. commands mode or regular mode (esc)
+	2. Insert mode (i)
+	3. Replacement mode (ctrl r)
+
+there are options or commands to delete file content  (dd)
+there are options or commands to copy file lines (yy)
+there are options or commands to replace content (%s)
+
+dd : to delete cursor position line
+10dd : to delete 10 lines from cursor position line
+u : to undo the latest changes
+yy : to copy cursor standing line
+10yy : to copy 10 lines from cursor position.
+p: past the copied lines below of cursor position
+Shift P nothing but capital P
+shift P : past the copied lines above of cursor position.
+
+p past the copied lines below of the cursor
+P past the copied lines above of the cursor
+cc = cut the cursor standing line
+10cc = to cut the 10 lines from the cursor line
+press esc and press p to past
+
+i : switch from command mode to insert mode
+esc : swith from insert mode to command
+
+prese esc key
+:wq
+:w  save
+:q quit
+:wq      save and come out
+:se nu  : is for set the line numbers 
+:10 : is for take cursor to 10th line
+:set num is for set the line numbers for file
+:se nonu  : is for disable line numbers
+
+gg : is for take cursor to first line of the file
+G : is for take cursor to last line of the file
+shift g
+ 
+$ : is for take cursor to last postion of the line
+shift $
+suppose your cursor is standing staring of line if you want to take cursor to last position of line
+then we can use $ symbol
+0 : is for bring cursor at first position of the line
+zero
+gg,G,$,0
+
+/raja 
+/word: is for search the string/word inside file
+/word search string from top to buttom
+n next
+N previous
+
+?word : is for search string/word inside file but difference between / and ? is 
+/ is for top to buttom
+? is for buttom to top
+?word
+n previos
+N Next
+
+o : is for create new line below of the cursor standing line and switch to insert mode
+O : is for create new line above of the cursor standing line and switch to insert mode
+i : is for switch to insert mode before cursor possition.
+a : is for switch to insert mode  after cursor possition.
+I : is for take cursor to starting of the line and switch to insert mode
+A : is for take cursor to last position of line and switch to insert mode
+
+replace:
+:%s/oldword/newword/g
+%s : substute
+g: global (every where inside file)
+:%s/devendra/devendra babu/g
+
+x : is for delete single charector from cursor possition.
+8x to delete 8 char
+dw : is for delete word from cursor possion.
+
+r : is for replace single char from the cursor possition.
+R : switch from command mode to replacement mode
+shift r
+
+command mode(esc)
+insert mode(i,a,o,O,I,A)
+replacement mode (R)
+
+
+    ^ :  k
+    down arrow : j
+    < : h
+   > :  l 
+=====================================================================================vi options completed=========================
+below command not inside vi. we will execute it outside of vi.
+
+how to empty file?
+> /root/b12file
+
+cat /var/log/secure > /b23
+cat /var/log/secure >> /root/b12file
+> redirect output to file, but it will overwrite if there is any data already.
+>> redirect output to file, but it will not overwrite , it just appends from last line.
+
+
+3. Touch
+
+using touch we can update current date and time stamp of existing file and also we can cretae empty file/files.
+
+syn : touch /file1
+many files : touch file1 file2 file3 file4 file5
+touch f{1..10}
+
+how to create n number of empty files with same patern?
+touch testfile{1..100}
+
+How to create hidden files?
+while creating file or directory if we specify .(dot) as a prefix then the file or directory will become hidden.
+touch .tfile1
+cat > .tfile2
+vi .tfile3
+
+how to see hidden and normal files?
+ls -a
+ls -la
+history 
+using history command we can get previously executed commands.
+
+			Directory
+
+how to create directory or folder?
+	mkdir  testdir
+make directory
+how to create n number of directories?
+	mkdir testdir1 testdir2 testdir3
+	touch file1 file2 file3
+
+files : black
+dir : blue
+
+how to create parent with child directory?
+	    -p icici/branch/krpuram
+
+		copy
+how to copy file and directories
+
+files
+syn : cp <source>  <destination>
+dir
+syn: cp -r <source>  <destionation>
+-r recursively
+   parent with child content(files/directories).
+
+. :  current path or current location
+pwd
+/mnt
+i am in /mnt
+cp /testfilebydevendra .
+it mean copying /testfilebydevendra to current path(/mnt).
+cp /testfilebydevendra ../etc/
+or
+cp /testfilebydevendra /etc
+
+. : current path
+.. : one step back path
+cd - : previous complete path		
+		remove
+	files : rm filename
+	directories : rm -r directoryname
+	rm -f filename
+	delete file without asking our confirmation.
+	  -f forcefully
+	rm -rf directory
+
+
+customers data we deleted
+
+for employee penalty is job . 
+for employer penalty in amount
+
+		move/rename
+
+move : mv <source> <destination>
+	mv testfile /etc/
+	here we are moving testfile to /etc directory
+	pwd 
+	/
+	mv testfile tfile
+if we specify source and destination is same path then system will understand as a rename
+
+How to get the OS version?
+cat /etc/os-release / cat /etc/redhat-release
+or
+hostnamectl status
+	
+How to get installed RAM/Memory? or how to get RAM information?
+free -m   or free -g  or free -k 
+m : the output will display in mega bytes, g: the output will display in giga byte
+
+	1024 MB is = 1 GB
+	1023 MB is = 0 GB
+or
+cat /proc/meminfo
+
+How to get the CPU information?
+lscpu
+or
+cat /proc/cpuinfo
+
+8 CPU's Physical machine configuration
+vm2  1
+vm3  8
+vm4 16 it's not possible
+
+How to get the disks information? How many disks are connected to server?
+lsblk
+lsscsi
+fdisk -l
+
+How to get kernel version?
+uname -r
+hostnamectl status
+
+2.6.18 = RHEL 5 versionl;'0863/896
+2.6.32 = RHEL 6 version
+3.10.0 = RHEL 7 versions
+4.10.0 = RHEL 8 version
+
+How to get the architecture of OS ?
+uname -m
+arch
+
+**How to get whether machine is virtual or physical?
+	dmidecode -s system-product-name
+	or 
+	hostnamectl status
+
+How to get the serial number of server?
+dmidecode -s system-serial-number
+
+	DATE
+date
+only time
+date +"%T"
+only date
+date +"%d-%m-%y"
+
+How to get hostname of system?
+	hostname
+	uname -n
+
+How to change hostname of system permanently?
+	hostnamectl set-hostname JamesBond 
+
+		List the content 
+
+ls - list out the file and directories (entire data in the path)
+ls -l  th 
+l-long list
+r - reverse 
+t- time 
+h- human readable format
+
+wc : word count
+wc -l filename
+wc -w filename
+wc -c filename
+
+ -l : prints the line numbers of file
+-w : it prints words in the file
+-c : it prints char in file 
+
+wc -l : word count and list 
+
+		Head and Tail   commands
+
+Head : is for print first 10 lines of file
+tail : is for print last 10 lines of file
+
+	head filename
+	tail filename
+	how to print specified lines?
+	head -30 filename
+	head -2 filename
+	tail -2 filename
+how to print only 7th line from file?
+	head -7 /root/b12file | tail -1
+	red irected first 7 lines to | symbol and from that printed only last line
+ 	sed -n 5p /root/b12file            to print only 5th line
+	sed -n 5,10p /root/b12file      to print the lines from 5 to 10 Lines
+	
+symbols:
+	|   : we can execute multiple commands but there will be relation between commands. second command depends on first command output.
+		Pipe sym has capacity to store output of first command and pass this output to next command as a input.
+		eg: cmd1 | command2 |cmd3
+			cat /root/b12file|head -5|tail -1
+			ls -l |wc -l
+	;    : we can execute multiple commands in sequence. eg : command1;cmd2;cmd3;cmd4  date;hostname;uname;uname -r    . no relation between commands.
+	&&  : we can execute multiple command with relation. second will execute if first command is success.
+		eg: cmd1 && cmd2 && cmd3       hostname && uname -r && date
+	||   :   it works like false condition
+		command1 || command2    if command1 fails then only second command has to execute
+		if command 1 success is second command will not execute at all.
+
+							poweroff the server
+	poweroff
+	commands:
+	shutdown -h now    : h halt the system imediatly
+	shutdown -h 5          :  halt the system after 5 min
+	shutdown -h 5 " we are powering off this system as per schedule"
+	poweroff
+	halt
+	init 0
+				Reboot/Restart the server
+
+	reboot
+	commands:
+	shutdown -r now    : r reboot the system imediatly
+	shutdown -r 5          :  reboot the system after 5 min
+	shutdown -r 5 " we are restarting this system as per schedule"
+	reboot 
+	init 6
+
+head -5 /root/b12file | tail -1
+sed -n 5p /root/b12file
+head -50 /root/b12file | tail -1
+
+  	 Less and more
+
+
+there is file which containing 100000 lines. 
+
+less and more are for read page content in page by page or line by line.
+
+syn:  less filename
+      more filename
+
+more:
+space bar is for to move on to next page
+enter key is for move to next line
+b is for take cursor to previous page
+q is for quite from output
+
+
+less:
+less is implemented with vi features.
+
+less filename
+space bar if for move cursor to next page
+b is for move cursor to previous page
+enter key is for move to next line
+arrow keys will work
+we can search the string /string
+
+
+ls -l | more
+
+ls : to list out current folder data
+ls -l
+-l : long list
+
+
+				-rw-r--r--   2   root   root  4096  11 jan  filenameS
+				drwxr-xr-x 2  devendra  devendra   4096   10 jan fd
+
+
+field 1 : type of file
+	
+	- : Normal file / Reguler file
+	d: directory
+	l : linked file . not orginal file from some where file has been linked to current path
+	b: block device files
+		sda is your hard disk nothing block device
+		sr0 is your dvd it your block device
+		sdb is your second hard disk is nothing block device
+		sda
+		sdb
+		sdc   
+		sr0   dvd
+	c: char devices
+		there will be name created by os for block devices
+	p : Pipe files or programs 
+	s : socket programs
+
+				-rw-r--r--   2   root   root  4096  11 jan  filename
+				drwxr-xr-x 2  devendra  devendra   4096   10 jan fd
+		
+
+	rw-|r--|r--|
+	r=read w=write x= execution
+	1. rw- for owner
+	2. r-- is for group members
+	3. r-- is for others
+
+write means : create file,modify file, create directory, delete file/dir
+					-rw-------   2   root   root  4096  11 jan  logfile
+				is root can modify this logfile? yes 
+				is devendra user can modify this file? no
+				is devendra user can read this file? no
+				none of the users can read file
+					drwx------ 2 devendra devendra  file1
+					is venu has any of the permissions? no 
+					is devendra can read this directory content? yes because he is a owner on this file
+				drwxrwx--- 2 devendra unixgrp      4096 09 jan /testdir
+
+		unixgrp members are : raja, manohar, sankar & venu
+				is raja can access this directory ?  yes he can because he a group member
+				is manohar can delete any file from /testdir? yes group members has read and write permissions so group members has permissions delete
+				is suresh can create file inside /testdir?  no because he is not a owner, he is not member in unixgrp
+
+	-rwxrwxrwx 2 root   root   4096 10 jan testfile
+	owner has full permissions
+	group members has full permissions
+	others also has full permissions
+	any body can modify or delete this file
+
+root can open or enter any of the file/directory. No limit to the root user, because he is the admin for your machine.
+
+
+				-rw-r--r--   2   root   root  4096  11 jan  filename
+				drwxr-xr-x 2  devendra  devendra   4096   10 jan fd
+					
+				
+
+3rd field   is hard links count for file
+there is a one file this file is linked into diferent palcess.
+file is linked to 3 placeses  then we can see here 3
+file is linked to 4 placeses then we can see here 4
+
+   4th field : owner of file/directory
+   5th field : group on file or directory
+   6th field : size of file or directory in bytes
+  7th field : create/modified date and time on file/directory
+
+
+t : every one has full permissions,  but each other can't delete or modify other users data
+sort out files/directories with date and time. from top to bottom
+at top we can see recently modified or created file/dir
+bottom we can see old files/directories
+
+How to get server uptime?
+uptime
+from how long server up and running.
+
+when system has been booted
+
+who -b 
+or 
+last 
+
+step 1 :  vi /etc/sysconfig/network-scripts/ifcfg-ens33
+there will be a one parameter that is ONBOOT=no will be
+	before
+		ONBOOT=no
+	after
+		ONBOOT=yes
+	savei
+
+How to find out currently logged in users list?
+w
+or
+users
+or
+who
+
+***diff: find the difference b/w data in 2 files 
+
+syntax: diff filel file2 
+
+			GREP
+	grep is for search string/word in file or files with one depth.
+		syn: grep -w "word" filename
+		          grep -w "word" *
+		* means in current search for that string
+
+	grep -w "devendra" /root/b23file
+i : ignore case sensitive
+	grep -wi "devendra" /root/b23file
+
+l: list out file names wherever string/word found
+	grep -il "devendra" *
+c: to count the string in file
+	grep -ic "devendra" /root/b23file
+	grep -ic "error" /root/b23file
+n : Print string with line numbers
+	grep -in "error" /root/b23file
+
+***tail -f /var/log/secure
+
+we can view live updating data
+
+ v : is for exclude one particular word from the grep output
+	grep -iw "devendra" /root/b23file | grep -v "devendra Babu"
+
+A : after
+B: before
+
+getting the error not working.
+
+your searching for one string , if string found in file then print few more lines either after or before
+	grep -w -A 5 error /root/b23file
+
+How to search multiple strings?
+	grep -w "word1\|word2\|word3"  filename
+
+			DU
+	disk usage
+using this commond we can get the file or directory size
+	du -hs filename
+	-hs   hs : size will be in human readable format
+1024 Kb = 1 MB
+1024 MB = 1 GB
+       1023 kb = output will be in KB
+        1024 or > then size will show in giga bytes
+
+du -hs . 
+is for display current folder usage
+du -hs *
+is for display current folder data size
+
+how to identify hight usage file or directory
+	du -ks * | sort -r -n | head -1
+	du -ks * | sort -r -n | head -5
+   -n
+0
+1
+2
+3
+-r -n
+100
+99
+98
+
+
+
+				Disk management
+			
+			1. Basic method
+			2. LVM method ( Logical volume manager)
+			3. MDADM method ( Multi disk administration)
+
+
+1. Basic method:
+	Disk : Storage Area
+	RAM  : Mediator between end user and processor
+	processor : worker
+
+
+1. Disk architecture
+2. How to create partition in disk
+3. How to delete partition in disk
+ 
+
+read = open file  the command is cat filename
+write = creating/modifing/deleting is nothing write.  cat > filename
+
+
+		disk is nothing but collection of platters
+		top of platters there will be a read and write head which will help to read and write data on platters
+		inside platter there will be tracks
+		inside tracks
+	platter ==> tracks ==> sectors(512 bytes) ==> data will store inside sector.
+
+
+512 Bytes
+8 Bits	= 1 Byte
+01010101 = 8 Bits or 1 byte
+
+1024 bytes 	= 1 kb kilobyte
+1024 KBs  	= 1 MB megabyte
+1024 MBs 	= 1 GB Gigabyte
+1024 GBs 	= 1 TB Terabyte
+1024 TB		= 1 PB Peta byte
+1024 PB		= 1 EB Exa byte
+
+sector : is small peace inside track . the sector capacity is 512 Bytes nothing but 1/2 KB. 
+2 sectors are equal to 1 KB
+
+chip : is nothing but predefined program. the manufactor person will injuct program inside that.
+
+
+		3 types of disks
+		1.	IDE technology disk ( Integrated Device electronics)
+		2. 	SCSI technology disk ( small computer system interface)
+		3. 	SSD ( Solid state drive)
+
+
+	
+inside disk we will create partition(drives)
+		
+		using normal method we can create 64 partitions
+		using LVM we can create 69932 partitions
+
+disk 1 : SDA   ==> 	sda1 part   P (primary)
+		sda2 part   P
+		sda3 part   P
+		sda4 part    L (Logical)
+		sda5 part    L
+		sda6 part    L
+note: only 4 pramary partitions can possible in each disk
+primary partition will support bootable files or programs ( /boot) contains bootable programs which will help to load your OS.
+logical is for just store normal data, not bootable file or programs.
+
+disk 2 : SDB
+		sdb1 part
+		sdb2 part
+		sdb3 part
+		sdb4 part
+		sdb5 part
+		sdb6 part
+disk 3 : SDC
+disk 4 : SDD
+
+* max how many primary partitions can possible in single disk
+	4 Primary partitions
+
+	1 TB
+	sda1 p 100 GBdsdds
+	sda2 p 100 GB
+	sda3 p 100 GB
+	sda4 P 100 GB
+
+the above plan is not correct
+the below approach is recommended
+	1 TB
+	sda1 p 100 GB
+	sda2 p 100 GB
+	sda3 P 100 GB
+	sda4 E 700 GB
+E = extended
+	sda5 L 50 GB
+	sda6 L 10 GB
+	sda7 L 10 GB
+till 64 partitions i can create in single disk
+
+
+
+How to create disk for virtual machine?
+Task 1: right click on virtual machine ==> settings ==> add ==> select Hard disk ==> just continue with default options
+Task 2 : the disk will not reflect by default at os level
+	to reflect disk at os we have refresh the channels
+	p " - - - " >> /sys/class/scsi_host/host0/scan
+	echo " - - - " >> /sys/class/scsi_host/host1/scan
+	echo " - - - " >> /sys/class/scsi_host/host2/scan
+	echo " - - - " >> /sys/class/scsi_host/host3/scan
+		space is mandory before and after -. 
+	incorrect one is
+	echo "---" 
+
+1st - = Channel
+2nd - = Target
+3rd - = LUN No 
+
+
+How to create partition using Basic method?
+step 1:  create partition inside disk
+	fdisk /dev/sdd
+	p : print the partitions information
+	n : create new partition
+	d : delete partition
+	w : save changes
+	q : quit from disk with out save things
+	l : List out system id's
+	t : for change system id for partition
+
+WARNING: Re-reading the partition table failed with error 16: Device or resource busy.
+The kernel still uses the old table. The new table will be used at
+the next reboot or after you run partprobe(8) or kpartx(8)
+Syncing disk
+
+step 2 : update partition information to kernel
+	partprobe /dev/sdd1
+step 3 :  keep partition in any of the file system type(ext2,ext3,ext4,xfs)
+	or 
+	 
+
+	mkfs.xfs /dev/sdd1
+	  or
+	mkfs -t xfs /dev/sdd1
+	make file system 
+	mkfs.ext4 /dev/sdd2
+
+block = 512 bytes
+512 bytes = 1 sec
+			Individual FS size	over all partitions max size	extra feature
+	ext2			2 TB		32 TB		no journaling
+	ext3			2 TB		32 TB		 journaling
+	ext4			16 TB		1 EB		 journaling
+	 xfs			500 TB		8 EB		 journaling
+ext :****extended version 2,3,4 (inodes are limited)
+xfs :****high perfomance file system (inodes are unlimited) 
+By default file system versions has been introuduced based on RHEL version.
+RHEL 4 : ext2
+RHEL 5 : ext3
+RHEL 6 : ext4
+RHEL 7 & 8 : XFS
+server is provisioned based on some request.
+  3000 servers 3 to 4 years effort 
+	application team(20 sub divisions)
+	db
+	
+journaling: tracking data which is coming to partition or disk
+simple terminalogy maitaining data about other data.
+
+
+data about data is nothing but metadata. metadata is nothing journing feature.
+adv : fast recovery
+incase sectors are corrupted or missing then easy to recover if we have assigned any journaling file system.
+
+Step 4 : Create mount point or directory and mount partition to that directory
+		mkdir /b23application
+		mount /dev/sdd1 /b23application
+
+		Data will go and store in /etc/mtab (Temparory file system)
+
+Step 5:  Update file system details in /etc/fstab file for make permanent mount.
+
+/dev/sdd1      /b23application      xfs          defaults                    0                   2
+
+device or uuid 	        mountpoint             FStype      Permissions       metadata     file system
+name						bkp	  checkup
+1		2	         3           	4 	5                       6
+
+defaults : rw,suid,dev,auto,nouser
+/dev/sdd1      /b23application      xfs          ro,noauto                    1                   2
+
+/dev/sdd1 ext4  mkfs.ext4 /dev/sdd1
+/dev/sdd2 ext3   mkfs.ext3 /dev/sdd2
+/dev/sdd3  xfs     mkfs.xfs    /dev/sdd3
+
+  field 5: 0 no meta data backup
+                 1 backup the metadata
+
+filed 6: 0,1,2
+0: no file system checkup required durng server booting time
+1: first priority partitions
+2: last priority partitions
+
+/dev/sdd1      /b23application      xfs         defaults                   1                   0
+/dev/sdd2      /b23db1     xfs                         defaults                   1                   1
+/dev/sdd3      /b23app02     xfs                   defaults                   1                   2
+/dev/sdd4      /b23app03     xfs                   defaults                   1                   2
+
+
+
+how to unmount the partition?
+	umount /b23application
+
+
+How to list out mounted partitons information?
+	df -h
+	display file systems in human redable format
+	df -Th
+	display file systems in human reable format with file system type
+
+
+
+How to mount partiton with UUID?
+for each and every partition will have one unique ID.
+/dev/sdd1   there will be a Unique id also
+	how we can find out uuid of partition is 
+		blkid -o list
+		blkid
+
+UUID will generate for partition during format
+	mkfs.xfs /dev/sdd2
+
+normal
+	mount /dev/sdd6 /test
+with uuid
+	mount UUID="   " /test
+
+****inode - Each and every file and dir is having the one indivisual number that number we are called as inode.
+syn :  
+syn: to check the inodes list for a mount point
+	df -h -i 
+[root@deva ~]# df -h -i
+Filesystem     Inodes IUsed IFree IUse% Mounted on
+devtmpfs         225K   398  225K    1% /dev
+tmpfs            228K     1  228K    1% /dev/shm
+tmpfs            228K   769  227K    1% /run
+tmpfs            228K    16  228K    1% /sys/fs/cgroup
+/dev/sda3        8.9M   69K  8.8M    1% /
+/dev/sdc2        512K     3  512K    1% /root/deva1
+/dev/sda1        150K   325  150K    1% /boot
+tmpfs            228K     1  228K    1% /run/user/0
+
+How to unmount the partition?
+step 1 : get approval from respective owner to unmount
+	unmount the partition once we get approval 
+	umount  /b23application
+note: make sure no one using that partition
+step 2 : remove entry from /etc/fstab
+
+
+
+
+		User administration
+
+		1. Creating users
+		2. Deleting users
+		3. Password related queries
+
+	useradd testuser
+	userdel testuser
+	passwd testuser
+
+server : 
+
+application server: application team required access. application team means developers and supporters for the application.
+DB : Database and application team need access.
+
+web users or application specific users: these users will be in Database
+server users will be in OS DB
+
+oracle db , SQL db is third party db's
+berkley , it's a os inbuilt database.
+
+your sbi bank customer:
+  end user  : net banking credentials
+  sbi server administrator : may doen't have account in sbi but he is supporting sbi servers. He will have invidual account in sbi servers to support the servers.
+
+which users will be in our control? creating , deleting & modifiying
+
+------------------------------------------------------------------------------------------
+we provisioned one server based on application team request. 
+ application team will request to create invidual users inside server.
+100 members are going develop the application. 
+
+
+
+			authentication we can do in two ways
+				1. Local authentication     or local user administration
+				2. centralized authentication  or centralized user administration.
+
+eg: our environment capacity is 1000 servers
+
+if i maintain users in individual server that means it's local authentication.
+
+How to create user?
+useradd appuser1
+
+what are those properties?
+	1. UID
+	2. User own group
+	3. home should be there
+	4. Description about user
+	5. shell for user 
+
+useradd username by default it's going to consider above all properties automatically.
+
+how to know whether user is present or not in system?
+	id username
+	or
+	grep username /etc/passwd
+
+how to set password for user?
+passwd username
+
+note: root user can set or change password for any of the user.
+normal user will not have rights to change password for other users, but him self can change the password.
+
+   root, devendra, sekhar
+ root can change password for all 3 users
+devendra can change only his password not other users password.
+
+
+	1. UID  ( 0 - 60000)    = 0 to 999 reserved for app/server accounts, 1000 - 60000 = common accounts.
+	2. User own group  = by default invidual user will have one group. the group id will take in sequence number. 
+	3. home should be there =  by default kernel will allocate home directory inside /home eg: /home/devendra /home/sekhar
+	4.  Description about user = comment or about that user
+	5. shell for user  : 6 shells sh,bash,dash,csh,tcsh,ksh   by default shell is bash in linux systems.
+
+
+how to create group?
+groupadd  unixitteam
+groupadd appteam
+groupadd dbteam
+  linux administrators are : devendra, sekhar,senkar, lokesh
+app users : damodhar, praveen, tomcatuser
+
+ creating user with specifications: 
+
+useradd -u 20000 -G unixitteam -c "Linux admin" -d /opt/babuhome -m -s /bin/sh babu
+  username : babu
+  home path : /opt/babuhome
+ what is uid of babu : 20000
+babu is member in unixitteam. Unixtitteam is a secondary group for babu.
+ what is babu primary group or his own group?  babu
+
+for babu primary group is babu
+he is member in unixitteam. unixitteam is secondary group for babu.
+
+useradd babu
+
+useradd -u 20001 -g unixitteam -G babu -c "Linux admin" -d /opt/raja -m -s /bin/sh raja
+
+username : raja
+primary group : unixitteam
+secondary : babu
+comment : linux admin
+home path : /opt/raja
+shell : /bin/sh
+		-u : user id
+		-g : primary group
+		-G : secondary group
+		-c  : comment 
+		-d : home directory path
+		-m : make home directory
+		-s : shell for user
+	
+user information maitained in /etc/passwd file
+cat /etc/passwd
+more /etc/passwd
+
+passwd yourname
+
+where we can find user information?
+user information has been seperated into two catogories
+	1. account information ==> /etc/passwd
+	2. password information ==> /etc/shadow
+
+/etc/passwd = 7 fields seperated with :
+
+* where we can find user information?
+	/etc/passwd file
+* explain about all the fields?
+	there are 7 fields
+devendra:X:1002:1002:babu devendra:/home/devendra:/bin/bash
+username:map password file:UID:primary GID:comment:homedirectory:shell
+1          2               3         4        5           6         7         
+
+/etc/shadow file fields
+ there are 8 fields
+devendra:abex123ksdfkllafdlsa;fd;fd;fadf:1025:1:99999:7:20:90
+
+username:encrypted password:days counting from jan 1 1970(last date changeing password):min password days:Max password days: Warning age for password days:account in-active days: account exp days
+       1                               2                               3                                                          4                                      5                                      6                                                   7                                       8
+
+
+following file will supply missing data to useradd command
+	/etc/default/useradd
+
+following file will supply password age days to accounts?
+	/etc/login.defs
+
+
+
+  useradd -u 20000 -g unixitteam -G devendra,root -d /application/appuser2 -m -c "application user" -s /bin/sh appuser2
+
+Useradd testuser
+
+  username : appluser2
+  uid : 20000
+primary group : unixitteam
+appuser2 member in devendra and root groups
+		usermod -u 20001 appuser2
+		usermod -g applicationgrp appuser2
+		usermod -a -G  unix appuser2
+		usermod -d /app/appuser2 -m appuser2
+			-m move
+		useradd -d /opt/test -m test
+			-m make home directory right now
+
+		usermod -s /bin/bash appuser2
+		usermod -l apuser2 appuser2
+			here we are modifiying username from appuser2 to apuser2
+		l : change the login name
+	lock the account
+		usermod -L apuser2
+	un-lock the account
+		usermod -U apuser2
+	how to specify account expairy date?
+		usermod -e 2022/05/25 apuser2
+
+
+	
+40 server
+application users
+we did recently uid update for 5 users in each server.
+
+note: make sure user not logged in if you want to modify user fields. we can't modify user fields when user is logged in.
+
+
+/etc/passwd  ==> user information
+/etc/shadow ==> password related information
+/etc/group    ==> Groups information
+
+
+how to list out group members?
+	lid -g groupname
+	id username
+here you will user information
+how to get password information?
+	passwd -S username
+
+
+	one user one primary group at a time, but possible to change the primary group for user.
+	n number users can use one group as a primary group
+	eg:
+		useradd -g unixgroup it1
+		useradd -g unixgroup it2
+		useradd -g unixgroup it3
+
+				group admininistration
+
+How to create group?
+	groupadd unixgroup
+	groupadd -g 30000 unixgroup       ==> with specifications creating group
+
+how to modify group name?
+	groupmod -n unix unixgroup
+	-n : change the groupname from unixgroup to unix
+how to change group id 
+	groupmod -g 20001 unix
+		
+how to add users in group?  ------> Recomended 
+	gpasswd -a devendra unix
+how to add multiple users in group? ----> don't use this one. 
+	gpasswd -M username1,username2,username3 group
+	gpasswd -M devendra,tom,ramesh unix
+how to remove users from group?
+	gpasswd -d devendra unix
+how to delete group?
+	groupdel unix
+how to delete user?
+	userdel babu
+	here only user information will delete not home directory. 
+how to delete user with home directory?
+	userdel -r babu
+
+
+useradd and usermod, groupadd, groupmode  : /usr/sbin catogory commands
+	
+	/usr/bin : common commands, these commands will work for all users
+	/usr/sbin : super user commands. these commands will work only for root user
+
+
+		passwd
+
+how to change the password age?
+	passwd  -n 2 -x 200 -w 10 appuser3
+	n : min password age
+	x: max password age
+	w : password warning age 
+
+***chage command will helpout to set the all password related info.
+syntax- chage user_name
+[root@jamesbondpg home]# chage raja
+Changing the aging information for raja
+Enter the new value, or press ENTER for the default
+
+        Minimum Password Age [10]:
+        Maximum Password Age [8888]:
+        Last Password Change (YYYY-MM-DD) [2024-05-23]:
+        Password Expiration Warning [20]:
+        Password Inactive [180]:
+        Account Expiration Date (YYYY-MM-DD) [2025-05-23]:
+[root@jamesbondpg home]#
+****How to set password as never expire?
+chage -e -1 user_name
+
+***How to view the passwod info?
+chage -1 user_name
+
+***How to set the password reset at the time of first log in?
+chage -d 0 user_name
+
+how to lock the password?
+	passwd -l appuser3
+	passwd -u appuser3
+	usermod -L appuser3
+	usermod -U appuser3
+
+the enduser or application guy will create ticket with respective team . assignee will unixteam.
+ in each shift there will be min 1 engineer
+ 	in shift there are 2 engineers
+	1. 3 years
+	2. 11 years
+	if 3 years or junior couldn't able to done that request then he will assign this ticket with 11 years guy.
+
+4 members
+shift lead is devendra - today
+tomorrow may be raja 
+
+
+   if there is no password then also password status will show as LK
+/etc/shadow
+!!: in second field only 2 !! that mean no password
+
+passwd username
+
+!! in second field along with encrypted pasword , that mean password is locked.
+! in second field along with encrypted password, that mean account is locked
+
+How to verify the passwd status?
+
+passwd -S username
+[root@jamesbondpg home]# passwd -S raja
+raja PS 2024-05-22 10 8888 20 180 (Password set, MD5 crypt.)
+[root@jamesbondpg home]# passwd -l raja
+Locking password for user raja.
+passwd: Success
+[root@jamesbondpg home]# passwd -S raja
+raja LK 2024-05-22 10 8888 20 180 (Password locked.)
+[root@jamesbondpg home]#
+
+administrator will have rights to create accounts.
+
+	administrator(root)
+	normal users
+
+*  which are the files will reflect or update user information as soon as we create or delete user?
+	1. /etc/passwd
+	2. /etc/shadow
+	3. /etc/group
+as soon as we create user some files will generate in users home directory.
+
+	skeleton
+
+	/etc/skel
+
+for each and every user skeleton data will copy from /etc/skel to respective user home directory.
+
+
+* How many files will be there in users home directory by default? explain about those?
+
+	By default 4 files will be there in users home directory
+		1.  .bash_profile
+		2.  .bashrc
+		3.  .bash_logout
+	first login time we can fine only 3 files
+	second login onwards we can fine 1 more file extra
+		4. .bash_history
+
+.bash_profile
+.bashrc
+
+echo $0 : will print current shell of user
+echo $SHELL : will print default shell of user
+
+how to customize user environment?
+	su - oracle
+	vi .bashrc
+	alias l="ls -latr"
+	:wq
+      refresh config file
+	source .bashrc
+
+during login one script has to execute?
+	su - oracle
+	vi wel.sh
+	#!  /bin/bash
+	echo " Thanks for login to `hostname` as a `whoami`"
+	echo " Remember that you logged in as one of common user that is `whoami`"
+	echo " Make sure your executing right commands"
+        :wq
+	source .bash_profile
+
+
+"  "  Double quote is for print content whatever specified between double quotes.
+'  '  single : same like double quote.
+`  `  backword . you can find this below of esc key in keyboard  : is for call the commands
+
+eg: double quote
+	echo -e "Linux flavours are \n 1. RHEL\n2.SuSE\n3.Centos"
+
+single quote
+	echo 'Linux flavours are \n1.RHEL\n2.SuSE\n3.Centos'
+
+.bashrc : we can schedule or setup user environment in .bashrc and .bash_profile
+.bash_profile
+the above two programs will execute while user login to system.
+logout program will exuete while user logging out from the system.
+.bash_logout
+echo "Thanks for using system. going to cleanup the tmp files"
+rm -rf ~/tmp/*
+
+
+.bash_history: it captures history commands of that user
+whater commands he executes everything captured in .bash_history.
+
+how to create multiple users?
+
+step 1 : create file and update usernames
+	vi /tmp/slist
+		user1
+		user2
+		user3
+		user4
+		user5
+step 2 : using below for loop i can create 5 users
+	for i in `cat /tmp/slist`
+		do
+		useradd $i
+		done
+
+i is a variable , inside i variable i am storing /tmp/slist file.
+now i is nothing but usernames
+
+$ is for call the variable
+useradd $i 
+usreadd user1
+
+How to find out normal users?
+>=1000
+							
+awk : using awk we can print column wize output.
+
+df -h | awk '{print $6}'
+
+df -h | awk '{print $6 " : " $5}'
+
+how to print only usrenames?
+	awk -F":" '{print $1}' /etc/passwd
+how to print usrenames with uid?
+	awk -F":" '{print $1 " ==" $3}' /etc/passwd
+
+How to print only normal users?
+	awk -F: '{if ($3 >= 1000) print $1}' /etc/passwd
+how to print system and application users?
+	awk -F: '{if ($3 <= 1000) print $1}' /etc/passwd
+
+how to change Max password age to 60 for all users who are having already >= 60?
+	task 1 : find out users who are all having max password age is > 60.
+		awk -F: '{if ($5 > 60) print $1}' /etc/shadow
+	task 2 : redirect all these users to one file
+		awk -F: '{if ($5 > 60) print $1}' /etc/shadow | grep -v "root\|shutdown\|halt\|bin\|ftp" > /tmp/normalusers
+	task 3 : using for loop change password Max age to 60 Days for that list of users?
+		for i in `cat /tmp/normalusers`
+			do
+			 passwd -x 60 $i
+			done
+
+
+>
+>> 
+both are for indicates to redirection.
+
+chage:
+
+using chage command also we can customize password fields
+	chage -M 200 devendra
+	change -m 1 devendra
+	chage -W 5 devendra
+*****chage -e -1 devendra
+-M max password age
+-m Min  password age
+-W War password age
+-e Expair days (-1=Never expire)
+
+***Need to change the password at 1st login.
+chage -d 0 username
+
+how to change the password age?
+	passwd  -n 2 -x 200 -w 10 appuser3
+	n : min password age
+	x: max password age
+	w : password warning age 
+
+primary group : 
+==> we can't create user without primary group.
+==> primary group can be shared to multiple users.
+secondary group: user can be part of n number groups. those groups are considered as secondary groups.
+
+
+
+drwxr-xr-x  2   devendra unixgrp
+
+first 3 belongs to owner(devendra)
+second 3 belongs to group members(unixgrp)
+last 3 belongs to others. who are not belongs unixgrp.
+
+ramu and devendra
+devendra created file ==  devendra   unixgrp
+ramu created  file   ==  ramu      unixgrp
+
+			Permissions
+
+			there are 2 types of users
+				1. administrator(root)
+				2. Normal users
+* Default permissions
+root permissions:
+file      : rw-r--r--(644)
+directory : rwxr-xr-x(755)
+
+Normal users permissions:
+file      : rw-rw-r--(664)
+directory : rwxrwxr-x(775)
+
+
+				rwx
+				r = read (4)
+				w= write(2)
+				x = execution(1)
+
+
+rwx        r-x                                  r-x
+owner   group members     others
+		   6    6    4
+		-rw-rw-r--  .    2     devendra     unix   4096   11:25:02 Jan 21    file1
+		drwxrwxr-x . 2     devendra      unix   4096   12:3010 Jan 28    directory
+		   7      7     5
+		
+		-rw-rw-r--    2     ramu     ramu   4096   11:25:02 Jan 21    file2
+
+		devendra      
+		appuser1
+		appuser2
+		ramu
+	group members
+		unix
+		devendra
+		appuser1
+
+	group members
+		ramu
+		ramu
+		
+commands:
+	chmod 660 testfile
+	as per above command we provided rw access to owner and group members and others no permissions at all.
+	chmod 606 testfile
+	 every one has permissions
+
+directory
+	chmod -R 777   testdir
+ -R recursively : parent directory and sub content also will effect with 777 permissions.
+
+rm -rf /test
+
+	chmod 777 appdir
+the above command will change permissions only to appdir not to sub content.
+
+	
+				u: owner(user)
+				g: group 
+				o: others
+
+
+		chmod g-rwx    file1
+		- : remove existing permissions
+		+ : adding permissions
+		removed rwx persmissions to group members
+	chmod g+rx file1
+
+
+ls -ltr
+
+l long list
+t  sort with date and time
+     today created file 
+	that will show in top
+r reverse that output
+			grep -il "word" *
+
+/etc/login.defs
+useradd commond will refer the /etc/default/useradd and /etc/login.defs
+
+
+			root default permissions are 755
+		           normal usre default permissions 775
+
+	/etc/profile
+it's global environment configuration file.
+here we can find all setting related environment.
+		/home/devendra/.bash_profile  ==> individual user environment configuration file
+		/etc/profile                                    ==> global environment configuration file
+
+
+How to call the variable?
+echo $var
+echo $HISTSIZE
+using $ i will call the variable
+echo is for just print
+				Variables
+		
+			1. System variables
+			2. User defined variables
+
+what is variables?
+ variable is nothing but pre-defined program or array value.
+variable will work as a program.
+eg : HISTSIZE 
+	is a system variable because it is in capital letters.
+	HISTSIZE is pre-defined program. the program is it stores or remembers recent commands based how much value you specified.
+HISTSIZE=2000
+	HISTSIZE variable will remember 2000 recent commands.
+system  variables:
+	which defined by OS developers.
+	system variables will be in uper case (capital letters)
+            	using env command we can print the system variables.
+eg:   temp :	export HISTSIZE=3000
+        perm :    update HISTSIZE value in /etc/profile
+	
+User defined variables:
+	which willbe defined by end user.
+	ud variables will be in small letters.
+	using compegen -v command we can print system and user defined variables.
+
+eg: 	h=`hostname`
+
+how to remove user defined variable?
+	unset h
+	unset var
+
+	
+
+		root default permissions are 755 on directory
+	normal user  default permissions are    775 on directory
+
+kernel will reffer /etc/profile and here whatever we specified that permissions will be taken.
+
+	if [ $UID -ge 999 ];then
+	umask 002
+	else
+	umask 022
+	fi
+					777
+				-	002  normal users umask value
+					-----
+					775
+	
+
+
+				because root uid is 0 so he fall under false condition . for else condition umask is 022
+					777
+					022
+					-----
+					755
+
+
+if there is no umask for permissions then every one will have permissions on everything.
+there will not be any control on access.
+
+Umask is a feature for your permissions , using umask we can control default permissions.
+	controlling means default granting permissions or rejecting permissions.
+
+* default umask for system users and root user is = 022
+* default umask for normal users = 002
+
+		777-002 = 775
+		777-022 = 755
+directories 777
+files 666
+		666-002 = 664
+		666-022 = 644
+
+Perm	    FullPerm   Normal	Root	Umask
+File 		666	664	644	0002
+Directory	777	775	755	0022
+
+
+below commands prints the current umask value?
+	umask 
+we can set the umask value?
+	umask 0077
+	directory permissions = 700        777-077= 700
+	file permissions = 600                    666-066=  600
+
+	perm:
+	vi .bash_profile
+	umask 0077
+	
+	source .bash_profile
+
+chmod 775 /testdir                 ===> only to /testdir or parent directory not to sub content
+chmod -R 775 /testdir           ===>  it change the permissions to parent and child content
+
+chmod g+r /testfile    ==> granting read permissions to group members
+
+		ownership
+
+chmod is for change permissions  = chmod command will work for everyone
+chown is for change the ownership = chown command will work only for root user. chown is a /sbin catogory command
+chgrp is for change the group on file or directory = even this will work for root user.
+
+	chown sekhar:unix /testfile
+	or
+	chown sekhar /testfile
+
+	or
+	chown -R sekhar:unix /testdir
+
+	here sekhar is going to be new owner
+	unix is new group on /testdir
+
+	chmod permissions  file/directory
+	chown owner:group file/directory
+	chgrp group file/directory
+
+
+
+drwxrwxr-x  2   devendra   unix	4096     9:30:25 jan 20     testdir
+
+
+unix is a group, group members are :
+	sekhar
+	ramu
+
+normal users are
+babu
+sankar
+giri
+
+** explain about special permissions.
+
+	Special permissions
+	1. Sticky bit (1)
+	2. setuid	(4) backend commands will run by root user 
+	3. setgid	(2) backend commands will run by root user. same group name it will allocate for all the files and directories. 
+	4. ACL 
+	5.chattar (+i -apply , -i -remove, lsattr -view)
+
+chmod 0777 file
+chmod 1777 file sticky bit
+chmod 4777 setuid
+chmod 2777 setgid
+			
+sticky bit: it's a special catogory permissions. every one will have full access on directory but each other can't delete data.
+	mkdir /common
+	chmod 0777 /common
+now everyone has full access on /common directory. each other can delete other users file or data.
+
+using sticky bit we can control access issue.
+
+	applying sticky bit
+	chmod +t /common
+	+apply
+	- remove sticky bit permissions
+	other way to apply sticky bit permissions
+	chmod 1777 /common
+
+In Centos for files its shows T in ithers column, For directory it shows t.
+
+
+	owner
+	group
+	others
+
+using normal permissions we can't grant permissions to particular user.
+
+		0777
+
+	everyone has access
+	0770
+	only owner and group members has full access.
+
+there is no way to apply permissions to particular user.
+
+					ACL
+				access control list
+with this acl we can provide access to particular user and group also.
+
+1777 sticky bit
+0700 acl
+
+using acl we will provide access to particular user.
+
+
+	note : make sure acl is applied on partition or mount point.
+
+setfacl -R -m u:devendra:rwx /data/HRDATA
+
+-R recursively on directories
+-m multi options
+u:user
+username
+permissions
+
+setfacl -R -m g:unix:rwx /data/HRDATA
+
+how to list out acl permissions on directory?
+	getfacl /data/HRDATA
+
+setfacl -R -m u:babu:rwx,u:appuser3:rx,g:testgrp:rx /data/HRDATA
+
+how to remove acl permissions on directory?
+	setfacl -b /data/HRDATA
+how to remove acl permisions to particular user?
+	setfacl -R -x u:appuser1 /data/HRDATA
+
+-x excluding user from acl list
+
+Chattr: 
+
+Syntax : chattr +flag filepath -apply
+	 chattr -flag filepath -remove
+
+Here is a list of the most common flags and attributes:
+
+'a' With this attribute a file can only be opened in append mode.
+'i' To make a file immutable
+'S' Files with this attribute are synchronously updated on the disk
+'u' To save contents of a file when it is deleted
+'t' To restrict tail merging
+'j' The data of files with this attribute is updated to ext3 journal before the file itself
+
+Effects of Special Permissions on Files and Directories (SUID and SGID)
+
+SUID - When ever you are applied the suid on the file/command path, who ever will run that command backend will run/handled by root/admin user only. 
+Ex: passwd/chage/gpasswd command when ever any normal user will run backend will handled by root only. due to that only everyone able to update the /etc/shadow info into the same file even we don't have a permissions. 
+        
+Permission Effect on files Effect on directories
+u+s (suid) File executes as the user - 4+perms 
+that owns the file, not as
+the user that ran the file.
+No effect.
+
+
+SGID - When ever you are applied the sgid on the file/dir path, who ever will run that command backend will run/handled by root/admin user only. 
+ex: If you apply the sgid on the any dir_path same primary group name will reflect irrespective of users when they create the file or dir. 
+    
+g+s (sgid) File executes as the group - 2+(perm)
+that owns the file.
+Files that are created in the directory have a
+group owner to match the group owner of the
+directory.
+
+								Find
+
+find is for search file or directory in system.
+
+grep   is for search the word in file or files in one depth of directory.
+
+	searching options
+	
+		-name
+		-size
+		-Perm
+		-date
+		-time
+		-user or owner on file/dire
+		-group
+
+syn:
+	find <path>  <option> <fullfill the option>
+	find / -name testfile
+	or
+	find /etc  
+
+find /AP -type f -empty
+
+search only empty files in /AP directory
+
+-type f files
+-type d directories
+-type pdf searching pdf files
+
+[root@jamesbond ~]# ls -lrth /root/lvdir/
+total 8.0K
+-rw-r--r--. 1 root   root    44 Dec 27 07:50 jb
+-rw-------. 1 root   root  2.6K Feb  9 07:53 anaconda-ks.cfg
+drwxrwxrwx. 2 root   root     6 Mar  9 07:55 d1
+-rw-r--r--. 1 keshav root     0 Mar  9 07:56 g
+-rw-r--r--. 1 keshav root     0 Mar  9 07:56 f
+-rw-r--r--. 1 keshav root     0 Mar  9 07:56 e
+-rw-r--r--. 1 keshav root     0 Mar  9 07:56 d
+-rw-r--r--. 1 keshav root     0 Mar  9 07:56 c
+-rw-r--r--. 1 keshav root     0 Mar  9 07:56 b
+-rw-r--r--. 1 keshav linux    0 Mar  9 07:56 a
+[root@jamesbond ~]# find  /root -type f -empty -exec chown sasi {} \; (owner)
+[root@jamesbond ~]# ls -lrth /root/lvdir/
+total 8.0K
+-rw-r--r--. 1 root root    44 Dec 27 07:50 jb
+-rw-------. 1 root root  2.6K Feb  9 07:53 anaconda-ks.cfg
+drwxrwxrwx. 2 root root     6 Mar  9 07:55 d1
+-rw-r--r--. 1 sasi root     0 Mar  9 07:56 g
+-rw-r--r--. 1 sasi root     0 Mar  9 07:56 f
+-rw-r--r--. 1 sasi root     0 Mar  9 07:56 e
+-rw-r--r--. 1 sasi root     0 Mar  9 07:56 d
+-rw-r--r--. 1 sasi root     0 Mar  9 07:56 c
+-rw-r--r--. 1 sasi root     0 Mar  9 07:56 b
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 a
+[root@jamesbond ~]# find  /root -type f -empty -exec chown .linux {} \; (group)
+[root@jamesbond ~]# ls -lrth /root/lvdir/
+total 8.0K
+-rw-r--r--. 1 root root    44 Dec 27 07:50 jb
+-rw-------. 1 root root  2.6K Feb  9 07:53 anaconda-ks.cfg
+drwxrwxrwx. 2 root root     6 Mar  9 07:55 d1
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 g
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 f
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 e
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 d
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 c
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 b
+-rw-r--r--. 1 sasi linux    0 Mar  9 07:56 a
+[root@jamesbond ~]#
+
+find and do some action
+after finding take some action on results
+	find /AP -type f -empty -exec rm -rf {} \;
+		find		action on results
+{} is nothing but find command results.
+	find /AP -type f -empty -exec mv {} /bkp \;
+
+
+
+		-name
+		-iname
+	i: ignore case sensitive
+	B23file
+	find / -iname b23file
+
+Perm
+	find / -type f -perm 600 
+	find / -type d -perm 777
+	sticky bit applied directories
+		find / -type d -perm 1777
+
+owner/user
+	find / -type f -user devendra
+	find /data -user devendra -exec chown -R venu {} \;
+group 
+
+	find / -type f -group unixgrp 
+
+find / -type f -size +50M
+> 50 MB files
+
+
+searching files with size in between
+	find / -type f -size +800M -size -4000M
+	find / -type f -size +800M -size -4000M -exec rm -rf {} \;
+
+Date
+-mtime : modify days
+-atime : access days
+	find / -type f -mtime +90 
+
+	search files with older than 90 days
+
+	so many logs are there in /var/log. 
+* requirement is remove old logs that older than 1 month logs.
+
+	find /var/log -type f -mtime +30 -exec rm -rf {} \;
+
+	todays data feb 3rd 2021
+	find /var/log -type f -mtime +30  -mtime -31 
+
+time:
+-mmin = modify min
+-amin = access min  access is nothing just read or opened file or directory.
+
+	last one modified files
+		find / -type f -mmin -60
+	older than 1 hour data
+		find / -type f -mmin +60
+
+	between 5 to 10 hours data
+		find / -type f -mmin +300 -mmin -600
+
+
+
+locate : is for search file or directory
+
+there are no option for locate, only with name we can search file or directory.
+
+* I know the file name and i want search it which is recommended or which is fast?
+	locate
+	why locate is faster than find?
+	find manually go to each and every directory and look for file but locate will search in db(system db). 
+
+the locate will search in system db.
+
+
+
+						LVM 
+
+==================================  How to get disk for Virtual machine =======================================================
+
+	Linux administrator:
+		Task 1 :   Linux administrator open ticket with VMWare team to create disk. in ticket we share below information
+			1. Hostname/IP
+			2. Required disk size
+
+
+		Task 2 : VMWare team will create disk and attach to virtaul machine
+		note : automatically disk will reflect at OS end.
+
+VMWare team will take space from Data store.
+DATA store is nothing collection LUNS.
+
+	disks are created from data store. If data store is full?  How to increase data store capacity?
+			==> vmware team will co-ordinate with storage team to get new lun
+			==> this time vmware team will fill storage request form and open case with storage team
+			==> storage team create lun,format and map lun to server(HBA)
+			==> vmware administrator will scan for new luns in esxi host and add this luns into data store.
+			==> now data store capacity is increase.
+			==> vmare administrator will take space from data store.
+
+
+						LVM
+			Logical Volume manager
+
+	Fdisk
+ LVM							Basic method
+ADV:
+1. resize (extend/reduce)					Not possible
+2. Partitions(69932)					       64
+3. snapshot ( partition backup) that to online backup		 Not possible
+4. LVM supports RAID 					 Not possible
+
+
+				Architecture
+		
+				Raw Disk(LUN)
+				     PV
+				     VG
+				     LV
+
+
+
+
+How to list out existing pv's?
+	pvs  or pvdisplay
+how to list out existing vg's?
+	vgs or vgdisplay
+how to list out existing lv's?
+	lvs or lvdisplay
+
+
+*** scenario 1 : create partition from scratch using LVM method?
+		step 1 : if there is no free disk at OS end then we will co-ordinate with vmware team to get new disk if it's virtual machine.
+				lsblk
+			type -t and 8e to convert into LVM.
+		step 2 : we will convert new disk as pv
+			pvcreate /dev/sde1     or pvcreate /dev/sd{e1,e2}
+		step 3: we will create vg using pvs
+			vgcreate oravg /dev/sde1
+			vgcreate oravg /dev/sd{e1,e2}
+		step 4: we will create lv from newly created vg. the command is for create lv is
+			lvcreate -L 10G -n lv_ora01 oravg
+				-L labeling size  -n Name for lv  
+		step 5: keep lv into any of the file system type or format lv with any of the file system type(ext2,ext3,ext4,xfs).
+			mkfs.xfs /dev/oravg/lv_ora01
+		step 6:  create mount point and mount lv to that particular mount point.
+			mkdir /oradata
+			mount /dev/oravg/lv_ora01	/oradata
+		step 7:	update new lv details in /etc/fstab file for permanent mount
+			vi /etc/fstab
+			/dev/oravg/lv_ora01	/oradata	xfs	defaults  1 2
+ 
+create partiton using normal method
+	step 1 : create partition in disk using fdisk method
+		fdisk /dev/sdd
+			n
+	step 2 : update partitions information to kernel 
+		partprobe /dev/sdd
+	step 3:  keep partition into any of the file system type(ext2,ext3,ext4,xfs)
+		mkfs.xfs /dev/sdd1
+	step 4: create mount point and mount partiton to the particular mount point
+		mkdir /data
+		mount /dev/sdd1  /data
+	step 5: update new partition details in /etc/fstab file for permanent mount
+		/dev/sdd1	/data	xfs	defaults	1 2
+
+			
+			
+		10:00 AM 20 GB data in /oradata
+		10:30 AM created snapshot
+		11:00 AM   unfortunatly delete everything from /oradata
+		  we can restore full 20 GB data using 10:30 AM snapshot.
+
+
+
+** Scenario 2 : Extend partition space which is created in LVM method.
+
+		step 1 :  verify required free space is available in vg 
+		       (true)    if required space is available 
+				then
+			stright away extend partition space.
+		note: It's online activity. no need to unmount partition for extend.
+			Task 1 : extend the partition space
+				lvextend -L +2G /dev/oravg/ora01 
+				lvextend -L +2G /dev/oravg/ora01 -r     
+			         note: if we include -r in lvextend command then no need to execute resize or xfs_growfs commands.
+			Task 2 : resize the space to lv
+				ext3,4 :  resize2fs /dev/oravg/ora01 
+				xfs :  xfs_growfs /dev/oravg/ora01
+		step 2 : if enough space is not available in vg
+			(False)	
+			
+			Task 1:      vm: co-ordinate with vmware team to get disk
+				Physical machine: co-ordinate with storage team to get LUN
+			
+			Task 2:   once disk is available at os level then we will convert that disk as a PV using pvcreate command.
+				pvcreate /dev/sdg
+			Task 3:   once disk converted as a pv then we will add this pv into respective VG using vgextend command.
+				vgextend oravg /dev/sdg
+				now we got enough space in vg after adding new pv in vg.
+			Task 4 : Now straight away we will extend partition space  using lvextend command
+				lvextend -L +5G /dev/oravg/ora01 -r
+
+-----------------------------------------
+
+
+		echo " - - - " >> /sys/class/scsi_host/host0/scan
+		            c t l	
+		echo " - - - " >> /sys/class/scsi_host/host1/scan
+
+	1 TB /oradata
+	new partition  with 512 GB
+	    /oradatanew
+	replicate data or copy data from 1 TB partition(/oradata) to 512 GB partition (/oradatanew).
+	umount /oradata
+	umount /oradatanew
+	mount   512 partition /oradata
+later we will delete 1 TB partition.
+-----------------------------------------------
+
+** Scenario 3 :   reduce partition space which is created in LVM
+             ****note: we can't reduce lv space which is created with xfs file system
+ 	we can reduce for ext2,ext3,ext4 file system types.
+   to reduce partition space we required downtime(unmount) partition will not available.
+		step 1 :unmount the partition with proper approval
+			umount /oradata
+		step 2:   repair the file system
+			e2fsck -y /dev/oravg/ora01 -f
+		step 3: resize the partition space eg: current partition space is 15 GB in this we decided to reduce 5 GB.
+			resize2fs /dev/oravg/ora01 10G
+		step 4: reduce space from LV
+			lvreduce -L -4.5G /dev/oravg/ora01
+		step 5: mount back the LV
+			mount /dev/oravg/ora01 /oradata
+			
+		5 GB  - 4.9  recommended
+		5 GB - 5 GB wrong 
+		****PE =4 MB
+		LE = 4 MB
+
+https://www.redhat.com/sysadmin/resize-lvm-simple
+
+small -l in lvextend.
+
+ lvextend -l +100%FREE /dev/centos/root -r 
+ lvextend -l +Num_Of_PE /dev/centos/root -r
+
+Scenario 4:  what is snapshot? How to create snapshot for LV?
+
+ 	1. we can create backup for particular LV.
+	2. simplifies point-In-Time copy of lv.
+	3. snapshot occupies only 3 to 5 % of space to create the snapshot.
+	4. snapshot keep increase with latest changes(add/modify/delete). these changes will happen in slice which created after snapshot creation.
+	5.  snapshot merging will take you to state where you created snapshot.  everything will be earraged after snapshot creation.
+	6. snapshot will not be there in vg once we merge with orginal.
+	7. snapshot creates within same vg where Original lv is present.
+		eg: orginal lv in oravg
+		 even snapshot will create in same oravg.
+
+   orginal LV is : /dev/oravg/ora01
+**   snapshot is required only 3 to 5 % of space from original
+	original LV space is 10 GB.
+
+creating snapshot
+	lvcreate -L 500M -n snapofora01lv-04-jan-2022 -s /dev/oravg/ora01
+note: while creating snapshot downtime doen't required. creating snapshot is a online activity. 
+            downtime is required to merge snapshot with orginal LV.
+
+How to merge snapshot with original LV?
+	step 1 : unmount the orginal LV
+		umount /oradata
+	step 2 : merge the snapshot with orginal LV.
+		lvconvert --merge /dev/oravg/snapofora01lv-11-feb-202107
+	step 3 : mount back the orginal LV
+		mount -a
+
+			VG Backup and VG restorastion
+		
+	Important Files: 
+		1. /etc/lvm/lvm.conf
+	Important Directories:
+		1. /etc/lvm/backup = Backup of VG  : backup is the backend directory to store vg data.
+		2. /etc/lvm/archive = It captures vg level changes
+
+how to list out recent changes of VG?
+	vgcfgrestore -l oravg
+	vgcfgrestore -l <VGNAME>
+		-l list out the vg level changes
+* by default vgcfg captures last 10 vg level changes
+
+	we can increase the vgcfg cpature value with help of /etc/lvm/lvm.conf.
+
+	How to resote vg level changes?
+	vgcfgrestore -f /etc/lvm/archive/oravg_00021-1394821502.vg oravg
+
+	-f restoration file path
+
+	enable the vg after vg restoration.
+		vgchange -ay oravg
+
+   note: make sure all lvs are unmounted before restoration at particular vg.
+
+   How to backup vg at particular time in different path?
+	the default path is : /etc/lvm/backup
+	
+	vgcfgbackup -f /tmp/oravgbkp-15-feb-2021-0740am.vg  oravg
+		the format should be .vg.
+	backed up oravg in /tmp path.
+
+
+	few LVM basic commands:
+	below 3 commands are for refresh the 3 layers.
+		pvscan
+		vgscan
+		lvscan
+	below 3 commands are for enable and disable e layers
+		lvchange -an /dev/oravg/lv01     ==> disable lv   -an -activate no
+		lvchange -ay /dev/oravg/lv01     ==> enable lv   -ay  activate yes
+		vgchange -an oravg
+		vgchange -ay oravg
+		pvchange -xn /dev/sdd                 ==> disable PV
+		pvchange -xy /dev/sdd                  ==>  enable PV
+
+	How to rename the lvname?
+		lvrename   <oldname>    <new name>
+		lvrename /dev/oravg/testlv /dev/oravg/lv_test
+	
+	how to rename the vg?
+		step 1 : unmount all lvs which are mounted
+		step 2 : disable the vg
+			vgchange -an oravg
+		step 3 : rename the vg
+			vgrename oravg vg_ora
+		step 4: activate vg
+			vgchange -ay vg_ora
+		step 5: update the fstab entries
+			already file system are with old vg name so we have to update it and mount back the file systems.
+* How to list out lvs of particular pv?
+ 	pvdisplay -m /dev/sdg
+* How to create lv in particular PV?
+	lvcreate -L 1G -n oravg02 oravg /dev/sdg
+    normal : lvcreate -L 1G -n oravg02 oravg
+
+
+
